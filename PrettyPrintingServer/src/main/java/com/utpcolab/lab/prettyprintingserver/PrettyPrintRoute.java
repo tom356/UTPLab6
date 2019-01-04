@@ -1,5 +1,7 @@
 package com.utpcolab.lab.prettyprintingserver;
 
+import com.utpcolab.lab.prettyprintingserver.prettyprinters.DefaultPrettyPrinter;
+import com.utpcolab.lab.prettyprintingserver.prettyprinters.PrettyPrinter;
 import java.util.HashMap;
 import java.util.Map;
 import spark.Request;

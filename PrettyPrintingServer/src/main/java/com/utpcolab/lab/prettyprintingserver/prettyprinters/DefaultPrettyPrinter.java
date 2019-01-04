@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.utpcolab.lab.prettyprintingserver;
+package com.utpcolab.lab.prettyprintingserver.prettyprinters;
+
+import com.utpcolab.lab.prettyprintingserver.prettyprinters.PrettyPrinter;
 
 /**
  *

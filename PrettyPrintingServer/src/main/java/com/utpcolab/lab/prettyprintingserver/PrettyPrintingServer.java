@@ -5,12 +5,16 @@
  */
 package com.utpcolab.lab.prettyprintingserver;
 
+import spark.Spark;
+
 /**
  *
  * @author Tomek
  */
 public class PrettyPrintingServer {
     public static void main(String[] args) {
-        
+        System.out.println("hosting on: \nhtml: localhost:4567\nAPI: localhost:4567/API/PrettyPrint/:dataType");
+        Spark.staticFiles.location("/web");
+        Spark.post("/API/PrettyPrint/:dataType", new PrettyPrintRoute());
     }
 }

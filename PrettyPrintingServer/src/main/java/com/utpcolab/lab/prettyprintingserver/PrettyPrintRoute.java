@@ -15,15 +15,17 @@ import spark.Route;
 public class PrettyPrintRoute implements Route {
 
     Map<String, PrettyPrinter> prettyPrinters = new HashMap<String, PrettyPrinter>();
-    PrettyPrintRoute(){
+
+    PrettyPrintRoute() {
         prettyPrinters.put("default", new DefaultPrettyPrinter());
     }
-            
+
     @Override
     public Object handle(Request request, Response response) throws Exception {
         PrettyPrinter selectedPrettyPrinter = prettyPrinters.get(request.params(":datatype"));
-        if(selectedPrettyPrinter == null)
-            selectedPrettyPrinter = prettyPrinters.get("default");        
+        if (selectedPrettyPrinter == null) {
+            selectedPrettyPrinter = prettyPrinters.get("default");
+        }
         return selectedPrettyPrinter.prettyPrint(request.body());
     }
 

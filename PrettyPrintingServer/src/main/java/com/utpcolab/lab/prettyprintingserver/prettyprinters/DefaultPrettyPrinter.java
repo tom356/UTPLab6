@@ -5,17 +5,15 @@
  */
 package com.utpcolab.lab.prettyprintingserver.prettyprinters;
 
-import com.utpcolab.lab.prettyprintingserver.prettyprinters.PrettyPrinter;
-
 /**
  *
  * @author Tomek
  */
-public class DefaultPrettyPrinter implements PrettyPrinter{
+public class DefaultPrettyPrinter implements PrettyPrinter {
 
     @Override
     public String prettyPrint(String source) {
         return source;
     }
-    
+
 }

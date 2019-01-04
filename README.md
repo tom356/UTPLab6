@@ -2,14 +2,14 @@
 
 This project is made for collage purpose, it is a simple server for pretty printing json and xml files.
 
-#Tools used
+# Tools used
 
 1. Java (backend)
 1. HTML + js (frontend)
 1. Maven
 1. Spark
 
-#Branching policy
+# Branching policy
 
 ![alt text](https://github.com/tom356/UTPLab6/raw/master/docs/branching_policy.png "Logo Title Text 1")
 
@@ -22,7 +22,7 @@ This project is made for collage purpose, it is a simple server for pretty print
 4. Bugfix
   - Optional for this project. When a bug is found on feature branch bugfix branch should be opened to fix the bug and then it should be merge to feature branch.
 
-#tips on git
+# Tips on git
 1. New branches should branch from master
 
   - 'git checkout master'

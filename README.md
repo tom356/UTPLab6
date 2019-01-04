@@ -1,7 +1,26 @@
 # UTPLab6
-This project is made for 
+
+This project is made for collage purpose, it is a simple server for pretty printing json and xml files.
+
+#Tools used
+
+1. Java (backend)
+1. HTML + js (frontend)
+1. Maven
+1. Spark
+
 #Branching policy
-image here
+
+![alt text](https://github.com/tom356/UTPLab6/raw/master/docs/branching_policy.png "Logo Title Text 1")
+
+1. Master
+  - Here we keep stable version of application. When new version will be ready and tested it will be merged to here. All feature branches should be branched from Master
+2. ReleaseCandidate
+  - This is currently developed version of product, new features should be merged to this branch after they are tested. this branch will be merged to Master when all planned functionality is ready
+3. Feature Branch
+  - These are branches on which everyone should develop their features. Its a private branch and one can do anything with it. Feature will be merged to relase candidate after tests
+4. Bugfix
+  - Optional for this project. When a bug is found on feature branch bugfix branch should be opened to fix the bug and then it should be merge to feature branch.
 
 #tips on git
 1. New branches should branch from master

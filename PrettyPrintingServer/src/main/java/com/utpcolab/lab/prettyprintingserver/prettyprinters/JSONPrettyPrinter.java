@@ -15,7 +15,7 @@ public class JSONPrettyPrinter implements PrettyPrinter {
 
     @Override
     public String prettyPrint(String source) {
-        return new JSONObject(source).toString();
+        return new JSONObject(source).toString(4);
     }
 
 }

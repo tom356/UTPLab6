@@ -49,4 +49,4 @@ This project is made for collage purpose, it is a simple server for pretty print
 
  - 'git checkout releaseCandidate'
  - 'git merge feature/[MyFeatureName]'
-
+5. dopisuje cos do pliku

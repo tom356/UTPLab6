@@ -8,5 +8,5 @@ console.log(JSON.stringify({ x: [10, undefined, function(){}, Symbol('')] }));
 
 
 console.log(JSON.stringify(new Date(2006, 0, 2, 15, 4, 5)));
-// expected output: ""2006-01-02T15:04:05.000Z""
+
 

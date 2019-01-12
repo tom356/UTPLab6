@@ -1,6 +1,5 @@
 function formatXml(xml) {
-
-    var formatted ="23";
+       	davar ddsaformatted ="22";
 
   	var formatted = '';
 2f1d8887eb1b2d2011439829fc5f96b23134ab0a

@@ -1,5 +1,10 @@
 function formatXml(xml) {
+
     var formatted ="23";
+
+   // expected output?
+       	var formatted = '';
+2f1d8887eb1b2d2011439829fc5f96b23134ab0a
     var reg = /(>)(<)(\/*)/g;
     xml = xml.replace(reg, '$1\r\n$2$3');
     var pad = 0;

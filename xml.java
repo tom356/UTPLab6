@@ -1,6 +1,5 @@
 function formatXml(xml) {
-
-    var formatted ="23";
+       	davar ddsaformatted ="22";
 
    // expected output?
        	var formatted = '';
